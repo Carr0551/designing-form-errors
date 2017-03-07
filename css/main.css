@@ -1,0 +1,12 @@
+html {
+  font-family: sans-serif;
+}
+
+.flag-optional {
+  color:#999;
+}
+
+input:invalid,
+input[type="checkbox"]:invalid + label::before {
+  border-color: #f33;
+}
